@@ -93,11 +93,11 @@ local function main(in_file1, in_file2, out_file)
 
      json_input = read_JSON(in_file1, in_file2)
 	 
-	 json_output = separate_key_value_pairs(json_input)
+     json_output = separate_key_value_pairs(json_input)
 
-	 output_JSON(json_output, out_file)
+     output_JSON(json_output, out_file)
 	 
-	 print("Program completed successfully.")
+     print("Program completed successfully.")
 	 
 end
 
